@@ -1,0 +1,167 @@
+.header {
+    margin-bottom: 30px;
+}
+.container-fluid ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    padding-right: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  li a:active {
+    background-color: rgb(204, 94, 94);
+  }
+  
+footer{
+    background-color: rgba(0, 102, 255, 0.918);
+    padding: 10px 0;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right: 0;
+  }
+  footer p {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .container-fluid .task{
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    background-color:rgb(143, 109, 109);
+    color: white;
+  }
+
+
+
+.container-fluid .newtaskimg {
+    height: 40px;
+    width: 40px;
+    float: left;
+  }
+  
+.container-fluid .taskimg {
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+  }
+
+
+.container-fluid .icon:hover {
+    background-color: red;
+
+  }
+
+.container-fluid .taskimg:hover {
+  height: 50px;
+  width: 50px;
+  margin-top: 20px
+}
+
+.col-12.todo {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+    margin: 0;
+  }
+.text {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+  }
+.icon {
+    width: 10%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    margin-right: 0;
+    padding: 0;
+
+  }
+
+  .container-fluid a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .create-form {
+    background-color: blueviolet;
+  }
+
+  .login {
+    display: flex;
+    align-items: center;
+  }
+
+  .form {
+    background-color: rgba(0, 102, 255, 0.918);
+    padding-top: 30px;
+    border-radius: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  button {
+    background-color: rgba(0, 102, 255, 0.918);
+    color: white;
+    border:0;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+  }
+  
+  .form-cont {
+    background-color: white;
+    width: 100%;
+    padding-top: 30px;
+    border-radius: 5px;
+    height: 200%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+
+  div input {
+    padding: 5px;
+    width: 100%;
+  }
+
+  .input-form {
+    margin-bottom: 20px;
+  }
+
+  .form h1 {
+    color: white;
+  }
+
+  
+
+
+
+
+
+

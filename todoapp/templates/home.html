@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<h1 style="text-align: center">Welcome Back Abednego!</h1>
+<div class="container-fluid">
+    <div class="row task">
+        <div class="col-12">
+            <br><br>
+            <img src="{% static 'images/create.png'%}" class="newtaskimg"/>
+            <h3>New task </h3>
+        </div>
+    </div>
+    {% for todo in todolist %}
+    <div class="row task">
+        <div class="col-12 todo">
+            <a href="{% url 'home' %}">
+            <div class ="text">
+                <h3>{{todo.title}}</h3>
+                <p>{{todo.created}}</p>
+            </div>
+            </a>
+            <div class="icon">
+                <img src="{% static 'images/delete.png'%}" class="taskimg"/>
+            </div>    
+        </div>
+    </div>
+    {{user}}
+    {% endfor %}
+</div>
+{% endblock %}
